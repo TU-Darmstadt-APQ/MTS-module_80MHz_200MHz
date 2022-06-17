@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "MTS module: 110MHz")
+    (title "MTS module: 80/200 MHz")
     (date "2022-04-20")
     (rev "1.3.2")
     (company "Atoms-Photon-Quanta, Institut für Angewandte Physik, TU Darmstadt")
@@ -618,6 +618,12 @@
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fb393af"
       (reference "#PWR015") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005ecb423f/aa1b2780-e554-486f-a7a2-8a7ae6b216dc"
+      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005ecb4384/9f2f62f6-032e-4ab3-9a58-43e3f38a17de"
+      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-000061ec9f45"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -808,7 +814,7 @@
       (reference "C23") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed55d74"
-      (reference "C24") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C24") (unit 1) (value "470n") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed9e7d6"
       (reference "C25") (unit 1) (value "3.3n") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -891,6 +897,24 @@
     (path "/00000000-0000-0000-0000-000061c36f5e/6bbf7d53-00ca-4a85-8da0-8abb9b51ed7e"
       (reference "C51") (unit 1) (value "10n(C0G)") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-00005ecb423f/4539c848-d13e-408b-baa3-eef02fdafe1c"
+      (reference "C52") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005ecb423f/49ac55d7-097c-4623-a9ab-2819f23ad875"
+      (reference "C53") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005ecb423f/4798c7e5-f89c-49fa-85b9-e7f30aed49d2"
+      (reference "C54") (unit 1) (value "10n/CDG") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005ecb423f/d2f5387d-d544-4cdc-8c52-dd89127f6ebb"
+      (reference "C55") (unit 1) (value "10n/CDG") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005ecb423f/29c07263-b477-44f8-b88d-c4abecc491a1"
+      (reference "C56") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005ecb423f/5460363f-c713-48f6-9ad6-c0621c0d2e30"
+      (reference "C57") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_1210_3225Metric")
+    )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ed2bae8"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_THT:LED_D4.0mm")
     )
@@ -945,6 +969,12 @@
     (path "/00000000-0000-0000-0000-00005ecb423f/00000000-0000-0000-0000-000061db3ed9"
       (reference "J12") (unit 1) (value "+15V  GND  -15V") (footprint "footprints:Pin_Header_Straight_1x03_Pitch2.54mm_Friction_Lock")
     )
+    (path "/00000000-0000-0000-0000-00005ecb4384/26f99cd9-b772-478c-8d0d-48abdc4a8537"
+      (reference "JP1") (unit 1) (value "D0") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-00005ecb4384/f02f3bf6-1913-4f8a-b246-a2b5ac1384fe"
+      (reference "JP2") (unit 1) (value "D1") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
     (path "/00000000-0000-0000-0000-00005f8d21fe"
       (reference "LOGO1") (unit 1) (value "Logo_APQ") (footprint "footprints:APQ-Logo")
     )
@@ -985,19 +1015,19 @@
       (reference "R10") (unit 1) (value "49.9") (footprint "Resistor_SMD:R_1210_3225Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005ee0817a"
-      (reference "R11") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R11") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fad9f56"
       (reference "R11A1") (unit 1) (value "2.49k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005edf63ce"
-      (reference "R12") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R12") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-00005fada6ba"
       (reference "R12A1") (unit 1) (value "2.94k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005edf5dd1"
-      (reference "R13") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R13") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-000061ed737a"
       (reference "R14") (unit 1) (value "20") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1033,13 +1063,16 @@
       (reference "R22A1") (unit 1) (value "2.94k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005f8686a2"
-      (reference "R23") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R23") (unit 1) (value "200") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061b85156"
       (reference "R24") (unit 1) (value "20") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061b85b16"
       (reference "R25") (unit 1) (value "390") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005ecb4384/71b6e83a-d968-4545-bcbc-c895ef72a99a"
+      (reference "R26") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061999a3d"
       (reference "R27") (unit 1) (value "499") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -1074,11 +1107,23 @@
     (path "/00000000-0000-0000-0000-00005ecb4384/55cc8603-9f83-447f-883e-f0e4137828bd"
       (reference "R35") (unit 1) (value "390") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/00000000-0000-0000-0000-00005ecb4384/b15b1c45-5482-4105-880d-1fc54be03f5a"
+      (reference "R36") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061d02e8e"
       (reference "RV1") (unit 1) (value "500") (footprint "Potentiometer_THT:Potentiometer_Vishay_43_Horizontal")
     )
+    (path "/00000000-0000-0000-0000-00005ecb423f/62b6ffc6-492c-4859-91b3-e865a63313a4"
+      (reference "TP1") (unit 1) (value "+12V") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
+    )
     (path "/00000000-0000-0000-0000-00005ecb423f/00000000-0000-0000-0000-00005ef568ae"
       (reference "TP2") (unit 1) (value "+3.0V") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
+    )
+    (path "/00000000-0000-0000-0000-00005ecb423f/2789ccbb-7019-4a73-bce3-5c191ede20ac"
+      (reference "TP3") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
+    )
+    (path "/00000000-0000-0000-0000-00005ecb423f/7bd0bf2a-fbeb-417d-bc82-0089eed92805"
+      (reference "TP4") (unit 1) (value "-12V") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
     )
     (path "/00000000-0000-0000-0000-00005ecb423f/00000000-0000-0000-0000-00006203e3f5"
       (reference "U1") (unit 1) (value "LT3094xMSE") (footprint "Package_SO:MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm")
@@ -1096,7 +1141,7 @@
       (reference "U5") (unit 1) (value "OPA695") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00005ecb4384/00000000-0000-0000-0000-00005f384935"
-      (reference "U6") (unit 1) (value "CVCO45CL-0100-0140") (footprint "footprints:CVCO45CL-0100-0140")
+      (reference "U6") (unit 1) (value "CVCO45CL-0140-0250") (footprint "footprints:Crystek_CVCO55CW-0140-0250")
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061d1a7c5"
       (reference "U7") (unit 1) (value "ADA4898-2") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm")
@@ -1142,6 +1187,12 @@
     )
     (path "/00000000-0000-0000-0000-000061c36f5e/00000000-0000-0000-0000-000061f3e3b1"
       (reference "U17") (unit 1) (value "OPA695") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ecb423f/7ef59ba0-1d2e-4367-b510-98933f18128b"
+      (reference "U18") (unit 1) (value "LT3032-12") (footprint "Package_DFN_QFN:Linear_DE14MA")
+    )
+    (path "/00000000-0000-0000-0000-00005ecb423f/77c6f68b-5c09-429b-bdcf-55aa6ea4f375"
+      (reference "U18") (unit 2) (value "LT3032-12") (footprint "Package_DFN_QFN:Linear_DE14MA")
     )
   )
 )
