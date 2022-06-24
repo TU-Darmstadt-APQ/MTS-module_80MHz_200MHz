@@ -63,7 +63,7 @@
       36
     ],
     "visible_layers": "ffd802b_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "MTS_module.kicad_prl",
