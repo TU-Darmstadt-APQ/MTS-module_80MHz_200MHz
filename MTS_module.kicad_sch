@@ -1141,7 +1141,7 @@
       (reference "TP1") (unit 1) (value "+12V") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
     )
     (path "/00000000-0000-0000-0000-00005ecb423f/00000000-0000-0000-0000-00005ef568ae"
-      (reference "TP2") (unit 1) (value "+3.0V") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
+      (reference "TP2") (unit 1) (value "+3.3V") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
     )
     (path "/00000000-0000-0000-0000-00005ecb423f/2789ccbb-7019-4a73-bce3-5c191ede20ac"
       (reference "TP3") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")

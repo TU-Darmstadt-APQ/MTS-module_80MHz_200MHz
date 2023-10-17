@@ -3160,7 +3160,7 @@
     (property "Reference" "TP2" (id 0) (at 147.5232 96.0628 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "+3.0V" (id 1) (at 147.5232 98.3742 0)
+    (property "Value" "+3.3V" (id 1) (at 147.5232 98.3742 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature" (id 2) (at 151.13 99.06 0)
