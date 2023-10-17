@@ -1,4 +1,4 @@
-### Module positions - created on Wed Jun 21 14:15:58 2023 ###
+### Module positions - created on Tue Oct 17 12:30:41 2023 ###
 ### Printed by Pcbnew version (6.0.7)
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -112,7 +112,7 @@ R26       1k                   R_0603_1608Metric                                
 R27       499                  R_0603_1608Metric                                    193.0000   -70.3000   90.0000  top
 R28       499                  R_0603_1608Metric                                    193.5000   -79.1000  180.0000  top
 R29       49.9                 R_1210_3225Metric                                    227.0000   -58.0000  180.0000  top
-R30       390                  R_0603_1608Metric                                    220.8000  -122.0000  -90.0000  top
+R30       20                   R_0603_1608Metric                                    220.8000  -122.0000  -90.0000  top
 R31       390                  R_0603_1608Metric                                    222.6000  -122.0000   90.0000  top
 R31A1     2.74k                R_0603_1608Metric                                    211.1000   -66.7250  -90.0000  top
 R32       390                  R_0603_1608Metric                                    194.4000   -87.2000  180.0000  top
@@ -123,7 +123,7 @@ R35       390                  R_0603_1608Metric                                
 R36       2k                   R_0603_1608Metric                                    194.2592  -105.4486   90.0000  top
 RV1       500                  Potentiometer_Vishay_43_Horizontal                   223.9250   -96.1000  180.0000  top
 TP1       +12V                 TestPoint_Keystone_5000-5004_Miniature               121.1000  -108.8882    0.0000  top
-TP2       +3.0V                TestPoint_Keystone_5000-5004_Miniature               112.9000  -137.9000    0.0000  top
+TP2       +3.3V                TestPoint_Keystone_5000-5004_Miniature               112.9000  -137.9000    0.0000  top
 TP3       GND                  TestPoint_Keystone_5000-5004_Miniature               121.1000  -105.2052    0.0000  top
 TP4       -12V                 TestPoint_Keystone_5000-5004_Miniature               121.1000  -101.7000    0.0000  top
 U1        LT3094xMSE           MSOP-12-1EP_3x4mm_P0.65mm_EP1.65x2.85mm              108.6000   -88.1000    0.0000  top
