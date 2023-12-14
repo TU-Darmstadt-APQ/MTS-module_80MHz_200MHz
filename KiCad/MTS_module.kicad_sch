@@ -511,7 +511,7 @@
   )
 
   (symbol (lib_id "Custom_logos:Logo_APQ") (at 175.26 171.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00005f8d21fe)
     (property "Reference" "LOGO1" (at 181.61 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -525,7 +525,7 @@
     (property "Datasheet" "~" (at 182.88 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Config" "DNF" (at 175.26 171.45 0)
+    (property "Config" "" (at 175.26 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances

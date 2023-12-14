@@ -1556,7 +1556,7 @@
     (property "Datasheet" "~" (at 270.51 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Config" "DNF" (at 262.89 171.45 0)
+    (property "Config" "" (at 262.89 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
